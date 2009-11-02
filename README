@@ -40,22 +40,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack goffice0.8-0.7.14-X-src.tar.bz2
+  unpack goffice0.8-0.7.15-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./goffice0.8-0.7.14-X.cygport all
+  cygport ./goffice0.8-0.7.15-X.cygport all
 
 This will create:
-  /usr/src/goffice0.8-0.7.14-X-src.tar.bz2
-  /usr/src/libgoffice0.8-devel-0.7.14-X.tar.bz2
-  /usr/src/libgoffice0.8_7-0.7.14-X.tar.bz2
+  /usr/src/goffice0.8-0.7.15-X-src.tar.bz2
+  /usr/src/libgoffice0.8-devel-0.7.15-X.tar.bz2
+  /usr/src/libgoffice0.8_7-0.7.15-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
 
------ version 0.7.14-1 -----
+----- version 0.7.15-1 -----
 Initial release of 0.8 branch.
 
 
