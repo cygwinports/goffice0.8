@@ -1,7 +1,7 @@
 ORIG_PN="goffice"
 inherit gnome2
 
-PKG_NAMES="${PN} lib${PN}_8 lib${PN}-devel"
+PKG_NAMES="lib${PN}_8 lib${PN}-devel"
 libgoffice0_8_8_CONTENTS="--exclude=gtk-doc usr/bin/*-0.8-8.dll usr/lib/goffice/ usr/share/"
 libgoffice0_8_devel_CONTENTS='usr/include/ usr/lib/lib* usr/lib/pkgconfig/ usr/share/gtk-doc/'
 
