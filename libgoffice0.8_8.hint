@@ -1,5 +1,0 @@
-category: Gnome
-requires: libatk1.0_0 libcairo2 libgcc1 libgdk_pixbuf2.0_0 libglib2.0_0 libgsf1_114 libgtk2.0_0 libintl8 libpango1.0_0 libxml2
-external-source: goffice0.8
-sdesc: "GNOME office application library (runtime)"
-ldesc: "A set of document-centric objects and utilities for GNOME"

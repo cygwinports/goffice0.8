@@ -1,7 +1,14 @@
 ORIG_PN="goffice"
 inherit gnome2
 
-PKG_NAMES="lib${PN}_8 lib${PN}-devel"
+NAME="goffice0.8"
+VERSION=0.8.17
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="GTK+2 office application library"
+DESCRIPTION="A set of document-centric objects and utilities for GNOME"
+
+PKG_NAMES="lib${NAME}_8 lib${NAME}-devel"
 libgoffice0_8_8_CONTENTS="--exclude=gtk-doc usr/bin/*-0.8-8.dll usr/lib/goffice/ usr/share/"
 libgoffice0_8_devel_CONTENTS='usr/include/ usr/lib/lib* usr/lib/pkgconfig/ usr/share/gtk-doc/'
 
